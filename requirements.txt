@@ -1,0 +1,26 @@
+# ============================================================
+# ELCS RODOC - Requirements
+# Assistant IA documentaire basé sur RAG
+# ============================================================
+
+# Interface web
+streamlit>=1.40,<2.0
+
+# LangChain
+langchain>=0.3,<1.0
+langchain-community>=0.3,<1.0
+langchain-text-splitters>=0.3,<1.0
+langchain-ollama>=0.3,<1.0
+
+# Modèle d'embeddings
+sentence-transformers>=3.0,<6.0
+
+# Base vectorielle
+faiss-cpu>=1.8,<2.0
+
+# Chargement des documents
+pypdf>=5.0,<7.0
+docx2txt>=0.8,<1.0
+
+# Calcul scientifique
+numpy>=1.26,<3.0
